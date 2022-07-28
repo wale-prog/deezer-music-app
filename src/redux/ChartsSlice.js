@@ -7,7 +7,6 @@ export const getChart = createAsyncThunk(
     const response = await axios.get('https://cors-anywhere.herokuapp.com/https://api.deezer.com/chart/0?index=0&limit=50');
     const responseData = await response.data;
     return responseData.tracks;
-    // return data;
   },
 );
 

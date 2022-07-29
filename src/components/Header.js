@@ -1,24 +1,11 @@
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { GiHamburgerMenu as Menu } from 'react-icons/gi';
 import { BsMic, BsSearch } from 'react-icons/bs';
-import { ChatsAction } from '../redux/ChartsSlice';
 import logo from '../images/Colored_Full.png';
 import './Header.css';
 
 const Header = () => {
-  const search = useSelector((state) => state.charts);
-  console.log(search.option);
-  const dispatch = useDispatch();
-
-  const searchOption = () => {
-    if (search) {
-      dispatch(ChatsAction.hideSearch());
-    } else if (!search) {
-      (
-        dispatch(ChatsAction.showSearch())
-      );
-    }
-  };
+  const charts = useSelector((state) => state.charts);
 
   return (
     <div className="header-main">
@@ -27,12 +14,12 @@ const Header = () => {
         <p>all time charts</p>
         <div>
           <BsMic className="mic" />
-          <BsSearch onClick={searchOption} />
+          <BsSearch />
         </div>
       </div>
       <div className="mid-head">
         <div className="tracks">
-          <p>{search.length}</p>
+          <p>{charts.length}</p>
           <p>Tracks</p>
         </div>
         <div className="deezer-logo">

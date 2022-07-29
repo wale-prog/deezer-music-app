@@ -7,7 +7,7 @@
 
 .artist-tile a {
   text-decoration: none;
-  color: #fff;
+  color: #d3d3d3;
 }
 
 .artist-tile a:nth-child(even) {
@@ -20,4 +20,21 @@
 
 .main-page {
   background-color: rgb(63 98 164);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  margin: 20px 0;
+  width: 80%;
+  border: 2px solid #d3d3d3;
+  height: 26px;
+  border-radius: 6px;
+  background-color: rgb(63 98 164);
+}
+
+::placeholder {
+  color: #d3d3d3;
+  margin-left: 12px;
 }

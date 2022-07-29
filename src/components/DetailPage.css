@@ -1,0 +1,38 @@
+.arrow-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6px;
+  margin: 12px 2px;
+  background-color: #4369b2;
+  border-radius: 20px;
+  color: #d3d3d3;
+  gap: 4px;
+}
+
+.arrow-left p {
+  margin: 0;
+}
+
+.artist-detail {
+  background-color: rgb(65 103 176);
+  color: #fff;
+}
+
+.detail {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 4px;
+}
+
+.detail p {
+  padding: 0;
+  margin: 0;
+}
+
+.detail p:last-child {
+  margin-top: 8px;
+  margin-bottom: 40px;
+}

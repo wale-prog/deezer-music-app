@@ -9,10 +9,10 @@ const App = () => (
   <div>
     <Header />
     <Routes>
-      <Route path="/" exact="true" element={<MainPage />} />
+      <Route path="/" element={<MainPage />} />
     </Routes>
     <Routes>
-      <Route path=":chartTitle" exact="true" element={<DetailPage />} />
+      <Route path="/:chartTitle" exact="true" element={<DetailPage />} />
     </Routes>
   </div>
 );

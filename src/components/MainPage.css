@@ -1,0 +1,23 @@
+.artist-tile {
+  display: grid;
+  grid-template-columns: 187px 187px;
+  justify-content: center;
+  border: none;
+}
+
+.artist-tile a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.artist-tile a:nth-child(even) {
+  background-color: rgb(65 103 176);
+}
+
+.artist-tile a:nth-child(odd) {
+  background-color: rgb(63 98 164);
+}
+
+.main-page {
+  background-color: rgb(63 98 164);
+}

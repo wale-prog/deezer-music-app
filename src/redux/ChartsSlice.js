@@ -14,7 +14,16 @@ const initialState = [];
 const ChartsSlice = createSlice({
   name: 'Chart',
   initialState,
-  reducers: {},
+  reducers: {
+    showSearch(state) {
+      const nextState = [...state, { searchBar: true }];
+      return nextState;
+    },
+    hideSearch(state) {
+      const nextState = [...state, { searchBar: false }];
+      return nextState;
+    },
+  },
   extraReducers: {
     [getChart.fulfilled]: ((state, action) => [...state, ...action.payload.data]),
   },

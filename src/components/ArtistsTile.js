@@ -1,9 +1,6 @@
 import propTypes from 'prop-types';
 import { BsArrowRightCircle as ArrowRight } from 'react-icons/bs';
 import './ArtistsTile.css';
-// import { useSelector } from 'react-redux';
-
-// const charts = useSelector((state) => state.charts);
 
 const ArtistTile = ({ data: artist }) => {
   const helperFunc = (result = [1]) => {

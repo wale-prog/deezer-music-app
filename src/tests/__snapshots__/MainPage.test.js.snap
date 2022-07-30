@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test the Main page renders as expected Main page is rendered 1`] = `
+<div
+  className="main-page"
+>
+  <input
+    className="search-bar"
+    onChange={[Function]}
+    placeholder="Search music by title..."
+    type="text"
+    value=""
+  />
+  <div
+    className="artist-tile"
+  />
+</div>
+`;

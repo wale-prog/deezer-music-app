@@ -1,7 +1,7 @@
 import { useSelector } from 'react-redux';
 import { GiHamburgerMenu as Menu } from 'react-icons/gi';
 import { BsMic, BsSearch } from 'react-icons/bs';
-import logo from '../images/Colored_Full.png';
+import logo from '../images/Colored_Full_White.png';
 import './Header.css';
 
 const Header = () => {

@@ -1,19 +1,10 @@
-import { useEffect } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
 import { useSearchParams, Link } from 'react-router-dom';
-import { getChart } from '../redux/ChartsSlice';
-import ArtistTile from './ArtistTile';
+import ArtistTile from './ArtistsTile';
+import './MainPage.css';
 
 const MainPage = () => {
   const charts = useSelector((state) => state.charts);
-  const dispatch = useDispatch();
-
-  useEffect(() => {
-    if (charts.length === 0) {
-      dispatch(getChart());
-    }
-  }, []);
-
   const [search, setSearch] = useSearchParams();
 
   return (
@@ -38,11 +29,11 @@ const MainPage = () => {
           .filter((item) => {
             const filter = search.get('filter');
             if (!filter) return true;
-            const artistName = item.title.toLowerCase();
-            return artistName.startsWith(filter.toLocaleLowerCase());
+            const chartTitle = item.title.toLowerCase();
+            return chartTitle.startsWith(filter.toLocaleLowerCase());
           })
           .map((item) => (
-            <Link key={item.id} to={`/${item.artist.name}`}>
+            <Link key={item.id} to={`/${item.title}`}>
               <ArtistTile
                 key={item.id}
                 data={item}

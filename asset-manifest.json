@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/deezer-music-app/static/css/main.c2b80ffa.css",
+    "main.js": "/deezer-music-app/static/js/main.fe275a3d.js",
+    "static/media/Colored_Full.png": "/deezer-music-app/static/media/Colored_Full.dae4ced11c82475e34fd.png",
+    "index.html": "/deezer-music-app/index.html",
+    "main.c2b80ffa.css.map": "/deezer-music-app/static/css/main.c2b80ffa.css.map",
+    "main.fe275a3d.js.map": "/deezer-music-app/static/js/main.fe275a3d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2b80ffa.css",
+    "static/js/main.fe275a3d.js"
+  ]
+}

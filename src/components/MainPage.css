@@ -1,0 +1,40 @@
+.artist-tile {
+  display: grid;
+  grid-template-columns: 187px 187px;
+  justify-content: center;
+  border: none;
+}
+
+.artist-tile a {
+  text-decoration: none;
+  color: #d3d3d3;
+}
+
+.artist-tile a:nth-child(even) {
+  background-color: rgb(65 103 176);
+}
+
+.artist-tile a:nth-child(odd) {
+  background-color: rgb(63 98 164);
+}
+
+.main-page {
+  background-color: rgb(63 98 164);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-bar {
+  margin: 20px 0;
+  width: 80%;
+  border: 2px solid #d3d3d3;
+  height: 26px;
+  border-radius: 6px;
+  background-color: rgb(63 98 164);
+}
+
+::placeholder {
+  color: #d3d3d3;
+  margin-left: 12px;
+}

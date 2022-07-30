@@ -2,7 +2,7 @@
 
 > Project Description.
 
-> "Deezer Music App"
+> "Deezer Music App" is an entertainment app that sort through musical chart to bring all time music hits around the world to your doorstep and the fun part is that it comes with preview to the music if for instance the user cannot decide. It is powered by <img width="70" src="./src/images/Colored_Full_White.png"/> 
 
 ## Built With
 
@@ -15,7 +15,18 @@
 - Git & Github
 
 ## Live Demo
-No live demo yet
+Click [here](https://cheerful-crostata-ea300b.netlify.app/) to view live demo
+
+
+|  Homepage                                                                                                                                                                 |Detail View                                                                                                                                                                 |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="./src/images/preview_3.jpeg"> | <img height="580" src="./src/images/preview_2.jpeg"> |
+
+
+## Search by title
+<img width="400" src="./src/images/preview_1.jpeg">
+
+
 
 ## Getting Started
 
@@ -63,8 +74,8 @@ Contributions, issues, and feature requests are welcome!
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-
-- Shoutout to [Robertson](https://github.com/bobb-Rob) for being amazing.
+- Shoutout to [Nelson Sakwa on Behance](https://www.behance.net/sakwadesignstudio) for the amazing design templates
+- Thumbs up to [Robertson](https://github.com/bobb-Rob) for being supportive.
 - Microverse.
 
 ## 📝 License

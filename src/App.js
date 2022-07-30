@@ -1,5 +1,11 @@
 import './App.css';
+import MainPage from './components/MainPage';
 
-function App() {}
+const App = () => (
+
+  <div>
+    <MainPage />
+  </div>
+);
 
 export default App;

@@ -15,7 +15,7 @@
 - Git & Github
 
 ## Live Demo
-Click [here](https://merry-crepe-adfcdc.netlify.app/) to view live demo
+Click [here](https://cheerful-crostata-ea300b.netlify.app/) to view live demo
 
 
 |  Homepage                                                                                                                                                                 |Detail View                                                                                                                                                                 |

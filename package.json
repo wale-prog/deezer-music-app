@@ -2,7 +2,7 @@
   "name": "deezer-music-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://wale-prog.github.io/",
+  "homepage": "https://wale-prog.github.io/deezer-music-app",
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.3",
     "@testing-library/jest-dom": "^5.16.4",

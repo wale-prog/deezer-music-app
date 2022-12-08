@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .arrow-left {
   display: flex;
   justify-content: center;
@@ -27,12 +32,15 @@
   gap: 4px;
 }
 
-.detail p {
-  padding: 0;
-  margin: 0;
-}
-
 .detail p:last-child {
   margin-top: 8px;
   margin-bottom: 40px;
+}
+
+.detail div h2 {
+  display: inline;
+}
+
+.detail div p {
+  display: inline;
 }

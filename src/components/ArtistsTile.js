@@ -1,10 +1,12 @@
 import propTypes from 'prop-types';
 import { BsArrowRightCircle as ArrowRight } from 'react-icons/bs';
 import './ArtistsTile.css';
+import { useSelector } from 'react-redux';
 
 const ArtistTile = ({ data: artist }) => {
+  const state = useSelector((state) => state.charts);
   const helperFunc = (result = [1]) => {
-    if (result[result.length - 1] >= 50) {
+    if (result[result.length - 1] >= state.length) {
       return result;
     }
     if (result[result.length - 1] % 2 !== 0) {

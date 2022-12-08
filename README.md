@@ -2,7 +2,7 @@
 
 > Project Description.
 
-> "Deezer Music App" is an entertainment app that sort through musical chart to bring all time music hits around the world to your doorstep and the fun part is that it comes with preview to the music if for instance the user cannot decide. It is powered by <img width="70" src="./src/images/Colored_Full_White.png"/> 
+> "Deezer Mobile Music App" is an entertainment app that sort through musical chart to bring all time music hits around the world to your doorstep and the fun part is that it comes with preview to the music if for instance the user cannot decide. It is powered by <img width="70" src="./src/images/Colored_Full_White.png"/> 
 
 ## Built With
 
@@ -56,6 +56,7 @@ Click [here](https://cheerful-crostata-ea300b.netlify.app/) to view live demo
 
 - For any individual who wishes to practice and master webpack usage, basic HTML,CSS and Javascript
 - For practice of HTML5, CSS and Javascript technologies.
+- Please preview in mobile view
 
 ## Author
 

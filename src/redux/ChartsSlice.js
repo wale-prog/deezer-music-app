@@ -4,7 +4,7 @@ import axios from 'axios';
 export const getChart = createAsyncThunk(
   'Music/getChart',
   async () => {
-    const response = await axios.get('https://0.0.0.0:1000/https://api.deezer.com/chart/0?index=0&limit=50');
+    const response = await axios.get('https://cors-anywhere-qjxb.onrender.com/https://api.deezer.com/chart/0?index=0&limit=50');
     const responseData = await response.data;
     return responseData.tracks;
   },

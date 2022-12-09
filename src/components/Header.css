@@ -11,7 +11,14 @@
 
 .header-main {
   background-color: #4369b2;
+  width: 420px;
+  margin: 0 auto;
+}
+
+.header-s {
   color: #fff;
+  width: 375px;
+  margin: 0 auto;
 }
 
 .tracks {

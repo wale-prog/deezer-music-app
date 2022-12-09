@@ -22,6 +22,8 @@
 .artist-detail {
   background-color: rgb(65 103 176);
   color: #fff;
+  width: 420px;
+  margin: 0 auto;
 }
 
 .detail {
@@ -32,15 +34,15 @@
   gap: 4px;
 }
 
+.detail div p {
+  display: inline;
+}
+
 .detail p:last-child {
   margin-top: 8px;
   margin-bottom: 40px;
 }
 
 .detail div h2 {
-  display: inline;
-}
-
-.detail div p {
   display: inline;
 }
